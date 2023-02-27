@@ -42,3 +42,5 @@ public static class PizzaService
         Pizzas[index] = pizza;
     }
 }
+
+//This service provides a simple in-memory data caching service with two pizzas by default. Our web API will use that service for demo purposes. When you stop and start the web API, the in-memory data cache will be reset to the two default pizzas from the constructor of PizzaService.
